@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F2EAE2;
+    font-family: "Fraunces", "Montserrat";   
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+         
+}
+main {
+    width: 343px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFFFFF;
+}
+.img_cont1 {
+    width: 343px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+}
+.img_cont2 {
+    display: none;
+}
+.content {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #FFFFFF;
+    padding-bottom: 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+h2 {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    color: #6C7289;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+}
+h1 {
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 700;
+    color: #1C232B;
+    margin-bottom: 16px;
+    
+}
+p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7289;
+    line-height: 23px;
+    margin-bottom: 24px;
+}
+.price {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 20px;
+    
+}
+h4 {
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 700;
+    color: #3D8168;
+}
+h6  {
+    font-family: "Montserrat";
+    align-self: center;
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6C7289;
+}
+button {
+    width: 295px;
+    background-color:  #3D8168;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.61px;
+    
+}
+h3 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+@media (min-width:1440px) {
+    .img_cont1 {
+        display: none;
+    }
+    .img_cont2 {
+        display: block;
+        width: 337px;
+        height: 450px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .content {
+        height: 450px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        padding-top: 32px;
+        padding-left: 38px;
+        padding-bottom: 32px;
+    }
+    main {
+        display: flex;  
+        width: 657px;
+    }
+    .h2{
+        margin-bottom: 20px;
+    }
+    h1{
+       width: 236px; 
+       margin-bottom: 24px;
+    }
+    p {
+        width: 237px;
+        margin-bottom: 29px;
+    }
+    .price {
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+}
